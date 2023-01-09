@@ -1,0 +1,53 @@
+
+
+body{
+    background-color:rgb(24, 22, 22);
+}
+h1{
+    color:aliceblue;
+}
+/* For Sliding */
+#slide{
+    height:400px;
+    width: 90%;
+    display:block;
+    margin:auto;
+    border:1px solid black;
+}
+#slide>img{
+    height:100%;
+    width: 100%;
+}
+/* for input */
+
+#movie{
+    margin-left: 10%;
+    width: 15%;
+    height: 20px;
+}
+/*  For Searching Engine */
+#movies{
+display:grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: auto;
+margin: auto;
+height:auto;
+gap: 10px;
+width: 90%;
+padding: 10px;
+color:antiquewhite;
+}
+#movies>div{
+    display:block;
+margin: auto;
+
+}
+#movie>div>img{
+    width: 100%;
+
+}
+input{
+    height: 30px;
+    border-radius:5px;
+
+}
